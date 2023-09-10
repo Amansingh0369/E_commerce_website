@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.contianer{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(mainimg.jpg)  ;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.row ,.col ,button{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.logo{
+    width: 85px;
+}
+nav{
+    padding-top: 2%;
+}
+UL{margin: 0;
+    padding:0;
+    list-style: none;
+    height: 36px;
+    line-height:36px  ;
+     background-color:rgba(255, 255, 255, 0.596);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 15px;font:bold;}
+li{float: left;
+    border-right: 1px ;}
+a{display: block;
+    padding: 0 28px;
+    color: rgb(12, 12, 12);
+    text-decoration: none;}
+a:hover{background-color: white ; }
+.row{display: flex;
+    height: 88%;
+    align-items: center;
+    font-size:40px;
+    color:	#FFFACD;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.col{
+    flex-basis: 50%;
+}
+.main{
+    font-size: 100px;
+}
+.main_write{
+    font-size: 35px;
+    line-height: 30px;
+}
+.button1{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.contianer-2{
+    text-align: center;
+}
+.offers{
+    color: wheat;
+}
+.guests{
+    color: white;
+    font-weight: 200;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.foot{background-color: hsl(0, 0%, 23%);
+    font-size: 14PX;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: jumeirah-font2,Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    padding: 36PX;
+    color: white;
+}
+p:hover{
+    color: wheat;
+    transition: cubic-bezier;
+    padding-left: 10px;
+    transition-duration: 0.4s;
+}
+.card1 ,.card2, .card3, .card4{
+    color: white;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin :10px 15px;
+    background-image:url(food1.jpg);
+    background-position: center;
+    background-size: cover;
+}
